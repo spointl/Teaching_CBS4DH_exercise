@@ -1,19 +1,33 @@
+body {
+  background-color: blue;
+  font-family: monospace;
+}
+
+h1 {
+  font-weight: bold;
+}
+
 p{
-    color: purple;
+    margin:60px;
+    padding:10px;
+    color: black;
+    border: 5px solid yellow;
     font-weight: bold;
-    background-color: chartreuse;
+    background-color: blue;
 }
 
 ul{
     font-style: italic;
 }
 
-li {
-  color: green;
+li{
+  color: white;
 }
 
 table, th, td{
-    border: 1px solid black;
+    border: 2px solid black;
+    font-family: monospace;
+    margin: auto;
 }
 
 .coolPeople{
